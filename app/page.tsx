@@ -19,7 +19,7 @@ export default function Home() {
           Building websites, applications and experiences
         </h2>
         <p className="mt-2 leading-7 md:mt-4">
-          My name is Hendro Pick Kang and I'm a full-stack Software Engineer
+          My name is Hendro Pick Kang and I am a full-stack Software Engineer
           based in Singapore with 4 years of experience designing, developing,
           and deploying 10+ scalable web applications and APIs using Vue.js,
           React.js, Node.js, and PostgreSQL.
