@@ -88,7 +88,7 @@ export default function Home() {
           </p>
         </div>
         <div className="flex flex-col md:flex-row md:gap-[16px]">
-          <p className="min-w-[170px] italic leading-7">Sep 2020 - Jan 2025</p>
+          <p className="min-w-[170px] italic leading-7">May 2018 - Feb 2019</p>
           <p className="font-medium leading-7">
             Full-stack Developer at{" "}
             <a
