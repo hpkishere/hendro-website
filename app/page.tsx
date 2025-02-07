@@ -9,11 +9,7 @@ export default function Home() {
           Hello! 👋 Hendro here
         </h1>
         <Avatar className="h-[80px] w-[80px]">
-          <AvatarImage
-            alt="Hendro's logo"
-            className=""
-            src="/hendro-logo.png"
-          />
+          <AvatarImage alt="Hendro logo" className="" src="/hendro-logo.png" />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
       </section>
@@ -112,7 +108,7 @@ export default function Home() {
           Volunteering Experience
         </h2>
         <div className="flex flex-col md:flex-row md:gap-[16px]">
-          <p className="min-w-[170px] italic leading-7">Sep 2020 - Jan 2025</p>
+          <p className="min-w-[170px] italic leading-7">Apr 2019 - Sep 2020</p>
           <p className="font-medium leading-7">
             Founder & Software Engineer at{" "}
             <a
