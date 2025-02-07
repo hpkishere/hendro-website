@@ -9,45 +9,50 @@ export default function Home() {
           Hello! 👋 Hendro here
         </h1>
         <Avatar className="h-[80px] w-[80px]">
-          <AvatarImage className="" src="/hendro-logo.png" />
+          <AvatarImage
+            alt="Hendro's logo"
+            className=""
+            src="/hendro-logo.png"
+          />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
       </section>
 
       <section>
-        <h3 className="text-2xl font-semibold tracking-tight">
+        <h2 className="text-2xl font-semibold tracking-tight">
           Building websites, applications and experiences
-        </h3>
+        </h2>
         <p className="mt-2 leading-7 md:mt-4">
-          Full-stack Software Engineer based in Singapore with 4 years of
-          experience designing, developing, and deploying 10+ scalable web
-          applications and APIs using Vue.js, React.js, Node.js, and PostgreSQL.
+          My name is Hendro Pick Kang and I'm a full-stack Software Engineer
+          based in Singapore with 4 years of experience designing, developing,
+          and deploying 10+ scalable web applications and APIs using Vue.js,
+          React.js, Node.js, and PostgreSQL.
         </p>
         <p className="mt-2 leading-7 md:mt-4">
           <a
             href="mailto:hendrohpk@gmail.co?subject=Let's%20work%20together!"
-            className="whitespace-nowrap font-medium text-blue-500 hover:underline"
+            className="whitespace-nowrap font-medium text-blue-600 hover:underline"
           >
             🔗 Email
           </a>{" "}
           <a
             href="https://www.linkedin.com/in/hendro-pick-kang/"
             target="_blank"
-            className="whitespace-nowrap font-medium text-blue-500 hover:underline"
+            className="whitespace-nowrap font-medium text-blue-600 hover:underline"
           >
             🔗 LinkedIn
           </a>{" "}
           <a
             href="https://stackoverflow.com/users/12414097/hendro"
             target="_blank"
-            className="whitespace-nowrap font-medium text-blue-500 hover:underline"
+            className="whitespace-nowrap font-medium text-blue-600 hover:underline"
           >
             🔗 Stack Overflow
           </a>{" "}
           <a
             href="https://github.com/hpkishere"
             target="_blank"
-            className="whitespace-nowrap font-medium text-blue-500 hover:underline"
+            className="whitespace-nowrap font-medium text-blue-600 hover:underline"
           >
             🔗 GitHub
           </a>
@@ -55,9 +60,9 @@ export default function Home() {
       </section>
 
       <section className="flex flex-col gap-[8px] md:gap-[0px]">
-        <h3 className="mb-2 text-2xl font-semibold tracking-tight md:mb-4">
+        <h2 className="mb-2 text-2xl font-semibold tracking-tight md:mb-4">
           Work Experience
-        </h3>
+        </h2>
         <div className="flex flex-col md:flex-row md:gap-[16px]">
           <p className="min-w-[170px] italic leading-7">Sep 2020 - Jan 2025</p>
           <p className="font-medium leading-7">
@@ -103,9 +108,9 @@ export default function Home() {
       </section>
 
       <section className="flex flex-col gap-[8px] md:gap-[0px]">
-        <h3 className="mb-2 text-2xl font-semibold tracking-tight md:mb-4">
+        <h2 className="mb-2 text-2xl font-semibold tracking-tight md:mb-4">
           Volunteering Experience
-        </h3>
+        </h2>
         <div className="flex flex-col md:flex-row md:gap-[16px]">
           <p className="min-w-[170px] italic leading-7">Sep 2020 - Jan 2025</p>
           <p className="font-medium leading-7">
@@ -123,9 +128,9 @@ export default function Home() {
       </section>
 
       <section className="flex flex-col gap-[8px] md:gap-[0px]">
-        <h3 className="mb-2 text-2xl font-semibold tracking-tight md:mb-4">
+        <h2 className="mb-2 text-2xl font-semibold tracking-tight md:mb-4">
           Skills
-        </h3>
+        </h2>
         <div className="flex flex-col gap-[12px]">
           <div className="flex flex-col md:flex-row md:gap-[16px]">
             <p className="min-w-[120px] italic leading-7">Languages</p>
@@ -200,9 +205,9 @@ export default function Home() {
       </section>
 
       <section className="flex flex-col gap-[8px] md:gap-[0px]">
-        <h3 className="mb-2 text-2xl font-semibold tracking-tight md:mb-4">
+        <h2 className="mb-2 text-2xl font-semibold tracking-tight md:mb-4">
           Education
-        </h3>
+        </h2>
         <div className="flex flex-col md:flex-row md:gap-[16px]">
           <p className="min-w-[170px] italic leading-7">Sep 2016 - Jun 2020</p>
           <p className="font-medium leading-7">
