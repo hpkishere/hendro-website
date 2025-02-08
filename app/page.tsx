@@ -69,14 +69,14 @@ export default function Home() {
           <p className="min-w-[170px] italic leading-7">Sep 2020 - Jan 2025</p>
           <Accordion className="relative top-[1px]" type="single" collapsible>
             <AccordionItem className="border-0" value="item-1">
-              <AccordionTrigger className="justify-start gap-[12px] py-0 text-left">
+              <AccordionTrigger className="gap-[12px] py-0 text-left md:justify-start">
                 Software Engineer at Heart of God Church (Full-time)
               </AccordionTrigger>
               <AccordionContent className="w-full">
                 <p className="py-1 leading-5">
                   Engineering lead for{" "}
                   <a
-                    className="font-bold underline"
+                    className="font-medium text-blue-600 hover:underline"
                     href="https://heartofgodchurch.org/"
                     target="_blank"
                   >
@@ -107,7 +107,7 @@ export default function Home() {
           <p className="min-w-[170px] italic leading-7">May 2019 - Aug 2019</p>
           <Accordion className="relative top-[1px]" type="single" collapsible>
             <AccordionItem className="border-0" value="item-1">
-              <AccordionTrigger className="justify-start gap-[12px] py-0 text-left">
+              <AccordionTrigger className="gap-[12px] py-0 text-left md:justify-start">
                 Digital Transformation Assistant Engineer at Air Liquide
                 (Intern)
               </AccordionTrigger>
@@ -115,7 +115,7 @@ export default function Home() {
                 <p className="py-1 leading-5">
                   Software Engineer intern for{" "}
                   <a
-                    className="font-bold underline"
+                    className="font-medium text-blue-600 hover:underline"
                     href="https://www.airliquide.com/"
                     target="_blank"
                   >
@@ -125,7 +125,7 @@ export default function Home() {
                   Intelligence initiatives and continuous improvements
                 </p>
                 <p className="py-1 leading-5">
-                  • Built an Artificial Intelligence chatbot platform
+                  • Built an Artificial Intelligence chatbot platform{" "}
                   <b>(Angular.js, C# .NET & Amazon Web Services Lex)</b>
                 </p>
                 <p className="py-1 leading-5">
@@ -146,14 +146,14 @@ export default function Home() {
           <p className="min-w-[170px] italic leading-7">May 2018 - Feb 2019</p>
           <Accordion className="relative top-[1px]" type="single" collapsible>
             <AccordionItem className="border-0" value="item-1">
-              <AccordionTrigger className="justify-start gap-[12px] py-0 text-left">
+              <AccordionTrigger className="gap-[12px] py-0 text-left md:justify-start">
                 Full-stack Developer at LEAP Fintech (Intern)
               </AccordionTrigger>
               <AccordionContent className="w-full">
                 <p className="py-1 leading-5">
                   Full Stack Engineer intern for{" "}
                   <a
-                    className="font-bold underline"
+                    className="font-medium text-blue-600 hover:underline"
                     href="https://www.linkedin.com/company/leap-fintech/posts/?feedView=all"
                     target="_blank"
                   >
@@ -189,7 +189,7 @@ export default function Home() {
           <p className="min-w-[170px] italic leading-7">Apr 2019 - Sep 2020</p>
           <Accordion className="relative top-[1px]" type="single" collapsible>
             <AccordionItem className="border-0" value="item-1">
-              <AccordionTrigger className="justify-start gap-[12px] py-0 text-left">
+              <AccordionTrigger className="gap-[12px] py-0 text-left md:justify-start">
                 Founder & Software Engineer at codeTolove (Pro-bono freelance)
               </AccordionTrigger>
               <AccordionContent className="w-full">
@@ -197,7 +197,7 @@ export default function Home() {
                   Founder of a pro-bono non-profit which provides IT services to
                   social organizations and featured in{" "}
                   <a
-                    className="font-bold underline"
+                    className="font-medium text-blue-600 hover:underline"
                     href="https://www.straitstimes.com/lifestyle/do-good-with-tech#:~:text=CODETOLOVE"
                     target="_blank"
                   >
@@ -303,7 +303,7 @@ export default function Home() {
           <p className="font-medium leading-7">
             BSc (Information Systems) with Merit at{" "}
             <a
-              className="underline"
+              className="font-medium text-blue-600 hover:underline"
               href="https://admissions.smu.edu.sg/programmes/school-computing-and-information-systems?utm_source=google&utm_medium=cpc&utm_campaign=ug_oh_ug2025admissions&utm_content=sg_na_na_Brand-Progcomputinginfosystem-v2&gad_source=1&gclid=CjwKCAiA2JG9BhAuEiwAH_zf3jU7nDTl2okCpJU4xUPESPy9V1hAcL6dpgTodjh-FJAgVwZS3-G75xoCUS0QAvD_BwE"
               target="_blank"
             >
