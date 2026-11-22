@@ -29,6 +29,7 @@ function SkillSets({}) {
         "TailwindCSS",
         "Node.js",
         "Nest.js",
+        "Ktor",
         "Ruby on Rails",
       ],
     },
