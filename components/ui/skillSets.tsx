@@ -9,13 +9,22 @@ function SkillSets({}) {
   const skillSets: ISkillSet[] = [
     {
       name: "Languages",
-      skills: ["HTML", "CSS", "JavaScript", "TypeScript", "Ruby", "SQL"],
+      skills: [
+        "Kotlin",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Ruby",
+        "SQL",
+      ],
     },
     {
       name: "Frameworks",
       skills: [
-        "Vue.js",
         "React.js",
+        "Ktor",
+        "Vue.js",
         "Nuxt.js",
         "Next.js",
         "TailwindCSS",
@@ -23,6 +32,10 @@ function SkillSets({}) {
         "Nest.js",
         "Ruby on Rails",
       ],
+    },
+    {
+      name: "Data",
+      skills: ["Kafka", "Hadoop"],
     },
     {
       name: "Cloud / DevOps",

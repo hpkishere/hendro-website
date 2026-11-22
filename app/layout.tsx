@@ -7,7 +7,7 @@ const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Hendro's Website",
   description:
-    "Full-stack Software Engineer based in Singapore with 4 years of experience ",
+    "Full-stack Software Engineer based in Singapore with 6 years of experience",
 };
 
 export default function RootLayout({
