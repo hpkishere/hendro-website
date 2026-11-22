@@ -9,7 +9,15 @@ function SkillSets({}) {
   const skillSets: ISkillSet[] = [
     {
       name: "Languages",
-      skills: ["HTML", "CSS", "JavaScript", "TypeScript", "Ruby", "SQL"],
+      skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Kotlin",
+        "Ruby",
+        "SQL",
+      ],
     },
     {
       name: "Frameworks",

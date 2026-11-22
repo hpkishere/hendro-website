@@ -21,9 +21,9 @@ export default function Home() {
         </h2>
         <p className="mt-2 leading-7 md:mt-4">
           My name is Hendro Pick Kang and I am a full-stack Software Engineer
-          based in Singapore with 4 years of experience designing, developing,
+          based in Singapore with 6 years of experience designing, developing,
           and deploying 10+ scalable web applications and APIs using Vue.js,
-          React.js, Node.js, and PostgreSQL.
+          React.js, Node.js, Kotlin, and PostgreSQL.
         </p>
         <p className="mt-2 leading-7 md:mt-4">
           <a
@@ -60,6 +60,30 @@ export default function Home() {
         <h2 className="mb-2 text-2xl font-semibold tracking-tight md:mb-4">
           Work Experience
         </h2>
+        <Experience
+          title="Senior Software Engineer at Agoda (Full-time)"
+          date="Apr 2025 - Present"
+        >
+          <p className="py-1 leading-5">
+            Part of{" "}
+            <a
+              className="font-medium text-blue-600 hover:underline"
+              href="https://www.agoda.com/"
+              target="_blank"
+            >
+              Agoda
+            </a>
+            &apos;s Personal Travel Assistant team, featured in{" "}
+            <a
+              className="font-medium text-blue-600 hover:underline"
+              href="https://www.straitstimes.com/paid-press-releases/agodas-ai-assistant-brings-travel-planning-and-booking-into-one-conversation-20261110"
+              target="_blank"
+            >
+              The Straits Times
+            </a>
+          </p>
+        </Experience>
+
         <Experience
           title="Software Engineer at Heart of God Church (Full-time)"
           date="Sep 2020 - Jan 2025"
@@ -193,6 +217,19 @@ export default function Home() {
         <h2 className="mb-2 text-2xl font-semibold tracking-tight md:mb-4">
           Education
         </h2>
+        <div className="flex flex-col md:flex-row md:gap-[16px]">
+          <p className="min-w-[170px] italic leading-7">Sep 2025 - Present</p>
+          <p className="font-medium leading-7">
+            M.S. Computer Science (OMSCS) at{" "}
+            <a
+              className="font-medium text-blue-600 hover:underline"
+              href="https://omscs.gatech.edu/"
+              target="_blank"
+            >
+              Georgia Institute of Technology
+            </a>
+          </p>
+        </div>
         <div className="flex flex-col md:flex-row md:gap-[16px]">
           <p className="min-w-[170px] italic leading-7">Sep 2016 - Jun 2020</p>
           <p className="font-medium leading-7">
