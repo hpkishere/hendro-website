@@ -10,11 +10,11 @@ function SkillSets({}) {
     {
       name: "Languages",
       skills: [
+        "Kotlin",
         "HTML",
         "CSS",
         "JavaScript",
         "TypeScript",
-        "Kotlin",
         "Ruby",
         "SQL",
       ],
@@ -22,16 +22,20 @@ function SkillSets({}) {
     {
       name: "Frameworks",
       skills: [
-        "Vue.js",
         "React.js",
+        "Ktor",
+        "Vue.js",
         "Nuxt.js",
         "Next.js",
         "TailwindCSS",
         "Node.js",
         "Nest.js",
-        "Ktor",
         "Ruby on Rails",
       ],
+    },
+    {
+      name: "Data",
+      skills: ["Kafka", "Hadoop"],
     },
     {
       name: "Cloud / DevOps",
